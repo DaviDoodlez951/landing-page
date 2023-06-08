@@ -28,7 +28,7 @@ animation: bg-animation 10s infinite alternate;
     /* justify-content: center; */
     /* align-items: center; */
     width: 100%;
-    height: 600px;
+    height: 650px;
     
     /* justify-content: space-around */
     
@@ -46,7 +46,7 @@ animation: bg-animation 10s infinite alternate;
     /* color: rgb(140, 23, 23); */
     /* color: white; */
     color: rgb(140, 23, 23);
-    background-image: linear-gradient(45deg,#f6f0f0,rgb(177, 112, 112),#f2eaea);
+    background-image: linear-gradient(45deg,#f6f0f0,rgb(175, 95, 95),#f6f0f0);
     background-size: 300%;
     animation: bg-animation 5s infinite alternate;
 
@@ -58,14 +58,19 @@ animation: bg-animation 10s infinite alternate;
     background-color: rgb(140, 23, 23)
 }
 .button:hover{
-    color: white;
+    color: rgb(140, 23, 23);
    background-size: 300%;
    background-image: linear-gradient(45deg,#5e5555,rgb(133, 102, 102),#3a0d0d);
+    animation: bg-animation 10s infinite alternate;
 
-
-
-
-
+}
+li:hover{
+    color: rgb(140, 23, 23);
+    color: black;
+   background-size: 300%;
+   /* background-image: linear-gradient(45deg,#5e5555,rgb(133, 102, 102),#3a0d0d); */
+   /* background-image: linear-gradient(45deg,#2a1212,rgb(140, 23, 23),#3a0d0d); */
+      background-color: transparent;
     animation: bg-animation 10s infinite alternate;
 
 }
@@ -80,11 +85,13 @@ animation: bg-animation 10s infinite alternate;
     flex-wrap: wrap;
     /* gap: 13px; */
     justify-content: flex-start;
-    align-items: center;
+    align-items: space-between;
     /* padding-bottom: 2px; */
     /* padding-top: 2px; */
     /* width: px; */
     /* flex-wrap: wrap; */
+
+
     
 }
 .logo {
@@ -94,14 +101,18 @@ animation: bg-animation 10s infinite alternate;
 }
 .akatsuki {
     width: 500px;
-    height: 270px;
+    height: 290px;
     margin-right: 180px;
     border-radius: 25px;
 }
 .main-title {
-    font-size: 48px;
+    color: white;
+    font-size: 40px;
     font-weight: 900;
     font-family: extra Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.description {
+    font-size: small;;
 }
 li {
     list-style: none;
