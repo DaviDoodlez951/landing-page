@@ -1,0 +1,125 @@
+body {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+@keyframes bg-animation 
+{
+        0% {
+            background-position: right
+           }
+        100% {
+            background-position: left
+        }
+    }
+.header {
+    background-image: var(--gradient);
+    /* background: #1f2937; */
+    /* background-image: linear-gradient(90deg, #8b0000, #000000); */
+    background-image: linear-gradient(45deg,#2a1212,rgb(140, 23, 23),#3a0d0d);
+    background-size: 300%;
+animation: bg-animation 10s infinite alternate;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    height: 600px;
+    
+    /* justify-content: space-around */
+    
+}
+.upper-body {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: rgb(140, 23, 23); */
+    /* color: white; */
+    color: rgb(140, 23, 23);
+    background-image: linear-gradient(45deg,#f6f0f0,rgb(177, 112, 112),#f2eaea);
+    background-size: 300%;
+    animation: bg-animation 5s infinite alternate;
+
+    font-weight: bold;
+    font-size: large;
+    width: 150px;
+    border-radius: 10px;
+    height: 48px;
+    background-color: rgb(140, 23, 23)
+}
+.button:hover{
+    color: white;
+   background-size: 300%;
+   background-image: linear-gradient(45deg,#5e5555,rgb(133, 102, 102),#3a0d0d);
+
+
+
+
+
+    animation: bg-animation 10s infinite alternate;
+
+}
+
+.one-side {
+    /* background: blue; */
+    max-width: 400px;
+    display: flex;
+    margin-left: 200px;
+    flex-shrink: 0;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* gap: 13px; */
+    justify-content: flex-start;
+    align-items: center;
+    /* padding-bottom: 2px; */
+    /* padding-top: 2px; */
+    /* width: px; */
+    /* flex-wrap: wrap; */
+    
+}
+.logo {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 13px;
+    font-weight: 900;
+}
+.akatsuki {
+    width: 500px;
+    height: 270px;
+    margin-right: 180px;
+    border-radius: 25px;
+}
+.main-title {
+    font-size: 48px;
+    font-weight: 900;
+    font-family: extra Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li {
+    list-style: none;
+}
+.links ul {
+    display: flex;
+    font-size: large;;
+    /* background-color: blue; */
+    justify-content: flex-end;
+    gap: 20px;
+}
+.header-content{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+    /* gap: 265px; */
+    /* flex: 1; */
+    /* gap: 190px; */
+    /* margin-left: 80px; */
+    /* margin-right: 100px; */
+}
