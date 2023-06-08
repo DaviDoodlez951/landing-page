@@ -64,7 +64,12 @@ animation: bg-animation 10s infinite alternate;
     animation: bg-animation 10s infinite alternate;
 
 }
-li:hover{
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
     color: rgb(140, 23, 23);
     color: black;
    background-size: 300%;
@@ -133,4 +138,7 @@ li {
     /* gap: 190px; */
     /* margin-left: 80px; */
     /* margin-right: 100px; */
+}
+.blah {
+    background-color: red;
 }
