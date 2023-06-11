@@ -1,6 +1,7 @@
 html {
     width: 100%;
     display: flex;
+    min-width: 1650px;
 }
 body {
     /* color: white; */
