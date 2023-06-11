@@ -1,5 +1,7 @@
 html {
-    min-width: 1500px;
+    /* min-width: 1500px; */
+    width: 100%;
+    display: flex;
 }
 body {
     /* color: white; */
@@ -8,7 +10,7 @@ body {
     margin: 0px;
     padding: 0px;
     /* height: 200%; */
-    width: 1905px;
+    width: 100%;
     /* min-height: 4000px; */
     /* background-image: linear-gradient(45deg,#2a1212,rgb(140, 23, 23),#3a0d0d); */
     /* background-size: 400%; */
@@ -147,6 +149,7 @@ li {
     /* background-color: yellow; */
     display: flex;
     justify-content: space-around;
+    gap: 30px;
     /* gap: 265px; */
     /* flex: 1; */
     /* gap: 190px; */
@@ -156,8 +159,8 @@ li {
 .center-title {
     /* background-color: pink; */
    /* background-color:rgb(140, 23, 23); */
-   background-color: black;
-   color: rgb(140, 23, 23);
+    background-color: black;
+    color: rgb(140, 23, 23);
     display: flex;
     width: 100%;
     height: 120px;
@@ -307,6 +310,7 @@ li {
     font-weight: bold;
     margin-top: 320px;
     margin-left: 300px;
+    width: 500px;
     /* bottom: 0px; */
     /* right:5px ; */
 }
